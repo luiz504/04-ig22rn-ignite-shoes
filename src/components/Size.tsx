@@ -1,8 +1,8 @@
-import { Pressable, IPressableProps, Text } from 'native-base';
+import { Pressable, IPressableProps, Text } from 'native-base'
 
 type Props = IPressableProps & {
-  size: string;
-  isActive: boolean;
+  size: string
+  isActive: boolean
 }
 
 export function Size({ size, isActive, ...rest }: Props) {
@@ -18,14 +18,14 @@ export function Size({ size, isActive, ...rest }: Props) {
       overflow="hidden"
       isPressed={isActive}
       _pressed={{
-        borderColor: "green.500",
-        borderWidth: 1
+        borderColor: 'green.500',
+        borderWidth: 1,
       }}
       {...rest}
     >
-      <Text color={isActive ? "green.500" : "gray.200"} fontSize="xs">
+      <Text color={isActive ? 'green.500' : 'gray.200'} fontSize="xs">
         {size}
       </Text>
     </Pressable>
-  );
+  )
 }

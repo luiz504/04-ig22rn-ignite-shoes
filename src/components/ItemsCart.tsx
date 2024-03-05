@@ -1,31 +1,30 @@
-import { HeaderList } from './HeaderList';
-import { FlatList, VStack, useToast } from 'native-base';
+import { HeaderList } from './HeaderList'
+import { FlatList, VStack, useToast } from 'native-base'
 
-import { useCart } from '../hooks/useCart';
+import { useCart } from '../hooks/useCart'
 
-import { ItemCartCard } from './ItemCartCard';
-import { Button } from '../components/Button';
+import { ItemCartCard } from './ItemCartCard'
+import { Button } from '../components/Button'
 
 export function ItemsCart() {
-  const { cart, removeProductCart } = useCart();
-  const toast = useToast();
+  const { cart, removeProductCart } = useCart()
+  const toast = useToast()
 
   async function handleItemRemove(productId: string) {
     try {
-      await removeProductCart(productId);
+      await removeProductCart(productId)
 
       toast.show({
         title: 'Produto removido',
         placement: 'top',
-        bgColor: 'green.500'
-      });
-
+        bgColor: 'green.500',
+      })
     } catch (error) {
       toast.show({
         title: 'Não foi possível remover o produto',
         placement: 'top',
-        bgColor: 'reed.500'
-      });
+        bgColor: 'reed.500',
+      })
     }
   }
 
@@ -35,7 +34,7 @@ export function ItemsCart() {
 
       <FlatList
         data={cart}
-        keyExtractor={item => item.id}
+        keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
           <ItemCartCard
             data={item}
@@ -48,14 +47,7 @@ export function ItemsCart() {
         mt={2}
       />
 
-      {
-        cart.length > 0 &&
-        <Button
-          title="Finalizar compra"
-          mx={8}
-          my={3}
-        />
-      }
+      {cart.length > 0 && <Button title="Finalizar compra" mx={8} my={3} />}
     </VStack>
-  );
+  )
 }

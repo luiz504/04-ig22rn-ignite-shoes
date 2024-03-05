@@ -6,7 +6,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/nike_downshifter1_thumb.png'),
     image: require('../assets/tennis/nike_downshifter1.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '2',
@@ -15,7 +16,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/nike_downshifter2_thumb.png'),
     image: require('../assets/tennis/nike_downshifter2.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '3',
@@ -24,7 +26,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/nike_downshifter3_thumb.png'),
     image: require('../assets/tennis/nike_downshifter3.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '4',
@@ -33,7 +36,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/nike_downshifter4_thumb.png'),
     image: require('../assets/tennis/nike_downshifter4.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '5',
@@ -42,7 +46,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/nike_legacy_thumb.png'),
     image: require('../assets/tennis/nike_legacy.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '6',
@@ -51,7 +56,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/nike_revolution_thumb.png'),
     image: require('../assets/tennis/nike_revolution.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '7',
@@ -60,7 +66,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/adidas_adizero_thumb.png'),
     image: require('../assets/tennis/adidas_adizero.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '8',
@@ -69,7 +76,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/adidas_farm_thumb.png'),
     image: require('../assets/tennis/adidas_farm.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '9',
@@ -78,7 +86,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/adidas_ferrari_thumb.png'),
     image: require('../assets/tennis/adidas_ferrari.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '10',
@@ -87,7 +96,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/adidas_lite_thumb.png'),
     image: require('../assets/tennis/adidas_lite.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '11',
@@ -96,7 +106,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/adidas_nano_thumb.png'),
     image: require('../assets/tennis/adidas_nano.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '12',
@@ -105,7 +116,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/adidas_quenstar_thumb.png'),
     image: require('../assets/tennis/adidas_quenstar.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '13',
@@ -114,7 +126,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/mizuno_create_thumb.png'),
     image: require('../assets/tennis/mizuno_create.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '14',
@@ -123,7 +136,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/mizuno_space_thumb.png'),
     image: require('../assets/tennis/mizuno_space.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '15',
@@ -132,7 +146,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/mizuno_wave_thumb.png'),
     image: require('../assets/tennis/mizuno_wave.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '16',
@@ -141,7 +156,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/mizuno_way_thumb.png'),
     image: require('../assets/tennis/mizuno_way.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
 
   {
@@ -151,7 +167,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/puma_rider_thumb.png'),
     image: require('../assets/tennis/puma_rider.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '18',
@@ -160,7 +177,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/pum_smash_thumb.png'),
     image: require('../assets/tennis/pum_smash.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
 
   {
@@ -170,7 +188,8 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/reebok_echo_thumb.png'),
     image: require('../assets/tennis/reebok_echo.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: '20',
@@ -179,6 +198,7 @@ export const PRODUCTS = [
     price: '199,00',
     thumb: require('../assets/tennis/reebok_trc_thumb.png'),
     image: require('../assets/tennis/reebok_trc.png'),
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
-];
+]

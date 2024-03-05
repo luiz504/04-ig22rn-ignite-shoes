@@ -1,7 +1,7 @@
-import { Feather } from '@expo/vector-icons';
-import { Heading, HStack, Icon, Text, VStack, Avatar } from "native-base";
+import { Feather } from '@expo/vector-icons'
+import { Heading, HStack, Icon, Text, VStack, Avatar } from 'native-base'
 
-import userPhotoDefault from "../assets/userPhotoDefault.png";
+import userPhotoDefault from '../assets/userPhotoDefault.png'
 
 export function HomeHeader() {
   return (
@@ -24,12 +24,7 @@ export function HomeHeader() {
         </Heading>
       </VStack>
 
-      <Icon
-        as={Feather}
-        name="log-out"
-        color="gray.200"
-        size={7}
-      />
+      <Icon as={Feather} name="log-out" color="gray.200" size={7} />
     </HStack>
-  );
+  )
 }
