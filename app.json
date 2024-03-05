@@ -14,10 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
+      "bundleIdentifier": "com.example.igniteShoeApp",
       "supportsTablet": true
     },
     "android": {
@@ -30,7 +29,8 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      ["onesignal-expo-plugin", { "mode": "development" }]
     ]
   }
 }
