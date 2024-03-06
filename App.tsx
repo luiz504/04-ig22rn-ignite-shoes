@@ -1,6 +1,6 @@
 import { StatusBar } from 'react-native'
 import { NativeBaseProvider } from 'native-base'
-import { OneSignal } from 'react-native-onesignal'
+import { NotificationClickEvent, OneSignal } from 'react-native-onesignal'
 import { ANDROID_FIREBASE_CLIENT_ID } from '@env'
 import {
   useFonts,
@@ -24,6 +24,16 @@ export default function App() {
 
   useEffect(() => {
     createTagUserInfo()
+  }, [])
+
+  useEffect(() => {
+    const handleClick = (event: NotificationClickEvent): void => {
+      console.log('click event', event)
+    }
+
+    OneSignal.Notifications.addEventListener('click', handleClick)
+    return () => console.log('ClenUp')
+    // return OneSignal.Notifications.removeEventListener('click', handleClick)
   }, [])
 
   return (
