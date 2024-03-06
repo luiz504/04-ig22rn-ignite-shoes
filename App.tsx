@@ -1,5 +1,7 @@
 import { StatusBar } from 'react-native'
 import { NativeBaseProvider } from 'native-base'
+import { OneSignal } from 'react-native-onesignal'
+import { ANDROID_FIREBASE_CLIENT_ID } from '@env'
 import {
   useFonts,
   Roboto_400Regular,
@@ -12,9 +14,8 @@ import { THEME } from './src/theme'
 import { Loading } from './src/components/Loading'
 
 import { CartContextProvider } from './src/contexts/CartContext'
-import { OneSignal } from 'react-native-onesignal'
 
-OneSignal.initialize('platform-id')
+OneSignal.initialize(ANDROID_FIREBASE_CLIENT_ID)
 OneSignal.Notifications.requestPermission(true)
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold })
