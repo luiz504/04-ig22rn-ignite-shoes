@@ -8,25 +8,33 @@ import {
 } from 'native-base'
 import { Ionicons } from '@expo/vector-icons'
 import { OSNotification } from 'react-native-onesignal'
-import { useNavigation } from '@react-navigation/native'
 
+import * as Linking from 'expo-linking'
 type Props = {
   data: OSNotification
   onClose: () => void
 }
-type AdditionalDataProps = {
-  route?: string
-  product_id?: string
+type DataRawParsed = {
+  custom: string
+}
+type CustomParsed = {
+  u: string
 }
 export function Notification({ data, onClose }: Props) {
-  const { navigate } = useNavigation()
-  const handleOnPress = () => {
-    const { route, product_id } =
-      (data.additionalData as AdditionalDataProps) || {}
+  const handleOnPress = async () => {
+    try {
+      const rawPayload: DataRawParsed = JSON.parse(data.rawPayload.toString())
+      const customParsed: CustomParsed = JSON.parse(
+        rawPayload.custom.toString(),
+      )
+      const launchURL = customParsed.u
 
-    if (route === 'details' && product_id) {
-      navigate('details', { productId: product_id })
-      onClose()
+      if (launchURL) {
+        await Linking.openURL(launchURL)
+        onClose()
+      }
+    } catch (err) {
+      console.log('err', err) //eslint-disable-line
     }
   }
   return (
