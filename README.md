@@ -7,19 +7,15 @@
   <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
 </p>
 
-
 ## 💻 Projeto
 
 igniteshoesapp
-
-
 
 ---
 
 <p align="center">
   Feito com 💜 by Rocketseat
 </p>
-
 
 <!--START_SECTION:footer-->
 
@@ -34,3 +30,20 @@ igniteshoesapp
 
 <!--END_SECTION:footer-->
 
+## Commands
+
+```bash
+  npx uri-scheme list
+```
+
+Manual deep-link test (dev mode):
+
+```bash
+  npx uri-scheme open <scheme_base_url><localIp> --android
+```
+
+```bash
+  npx uri-scheme open <scheme_base_url><localIp> --ios
+```
+
+example: exp+igniteshoes://192.168.1.11:8081
