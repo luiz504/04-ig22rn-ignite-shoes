@@ -36,7 +36,7 @@ igniteshoesapp
   npx uri-scheme list
 ```
 
-Manual deep-link test:
+Manual deep-link test (dev mode):
 
 ```bash
   npx uri-scheme open <scheme_base_url><localIp> --android

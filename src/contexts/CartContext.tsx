@@ -6,6 +6,7 @@ import {
   storageProductRemove,
   storageProductGetAll,
 } from '../storage/storageCart'
+import { updateTagCartItemsCount } from '~/notifications/notifications-tags'
 
 export type CartContextDataProps = {
   addProductCart: (newProduct: StorageCartProps) => Promise<void>
@@ -27,11 +28,13 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
   async function addProductCart(newProduct: StorageCartProps) {
     const storageResponse = await storageProductSave(newProduct)
     setCart(storageResponse)
+    updateTagCartItemsCount(storageResponse.length.toString())
   }
 
   async function removeProductCart(productId: string) {
     const response = await storageProductRemove(productId)
     setCart(response)
+    updateTagCartItemsCount(response.length.toString())
   }
 
   useEffect(() => {
