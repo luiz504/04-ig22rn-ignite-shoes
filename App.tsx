@@ -1,7 +1,7 @@
 import { StatusBar } from 'react-native'
 import { NativeBaseProvider } from 'native-base'
 import { NotificationClickEvent, OneSignal } from 'react-native-onesignal'
-import { ANDROID_FIREBASE_CLIENT_ID } from '@env'
+import { ANDROID_ONESIGNAL_APP_ID } from '@env'
 import {
   useFonts,
   Roboto_400Regular,
@@ -17,7 +17,7 @@ import { Routes } from '~/routes'
 import { createTagUserInfo } from '~/notifications/notifications-tags'
 import { useEffect } from 'react'
 
-OneSignal.initialize(ANDROID_FIREBASE_CLIENT_ID)
+OneSignal.initialize(ANDROID_ONESIGNAL_APP_ID)
 OneSignal.Notifications.requestPermission(true)
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold })
@@ -29,7 +29,7 @@ export default function App() {
   useEffect(() => {
     const handleClick = (event: NotificationClickEvent): void => {
       const { actionId } = event.result
-      console.log('actiionID', actionId)
+
       switch (actionId) {
         case '1':
           console.log('Ver todos')
